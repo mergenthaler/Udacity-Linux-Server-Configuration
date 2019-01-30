@@ -1,6 +1,6 @@
 # Udacity-Linux-Server-Configuration
 
-You can visit http://52.15.201.185 for the deployed Item Catalog
+You can visit http://52.15.201.185 for the deployed Item Catalog or here http://ec2-52-15-201-185.us-east-2.compute.amazonaws.com
 
 ### Step 1: SSH into the server with SSH Keys
 
