@@ -7,6 +7,7 @@ You can visit http://52.15.201.185 for the deployed Item Catalog or here http://
 - Download and move thr key `LightsailDefaultPrivateKey-*.pem` into the local folder `~/.ssh` and rename it `lightsail_key.rsa`.
 - In your terminal, type: `chmod 600 ~/.ssh/lightsail_key.rsa`.
 - To connect to the instance via the terminal: `ssh -i ~/.ssh/lightsail_key.rsa ubuntu@[PUBLIC IP]`,
+- Set Permit `PermitRootLogin no` in with `sudo nano /etc/ssh/sshd_config`
 
 ### Step 2: Update and upgrade installed packages
 ```
